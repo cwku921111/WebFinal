@@ -45,3 +45,32 @@ main {
 #upload-button:hover {
   background-color: #0056b3; /* 滑過時改變背景顏色 */
 }
+
+/* 左側設定欄樣式 */
+aside {
+  width: 200px; /* 左側欄位寬度 */
+  background-color: #f4f4f4; /* 背景顏色 */
+  padding: 20px; /* 內距增加 */
+}
+
+h2 {
+  margin-top: 0; /* 清除標題頂部外距 */
+}
+
+ul {
+  list-style: none; /* 清除項目符號 */
+  padding: 0; /* 清除內部內距 */
+}
+
+li {
+  margin-bottom: 10px; /* 項目之間增加外距 */
+}
+
+a {
+  text-decoration: none; /* 清除超連結下劃線 */
+  color: #333; /* 設定文字顏色 */
+}
+
+a:hover {
+  color: #007bff; /* 滑過時改變文字顏色 */
+}
