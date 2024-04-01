@@ -74,3 +74,12 @@ a {
 a:hover {
   color: #007bff; /* 滑過時改變文字顏色 */
 }
+
+img {
+  margin-right: 10px; /* 圖片與文字之間的間距 */
+}
+
+li {
+  display: flex;
+  align-items: center; /* 水平對齊 */
+}
